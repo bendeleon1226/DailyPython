@@ -10,9 +10,10 @@ def swapList(newList):
 
     return newList
 
-#this is the list
 whateverList = [10, 11, 14, 9, 12, 5, 20]
-print("before swap")
+print("before swap v1")
 print(whateverList)
-print("after swap")
+print("after swap v1")
 print(swapList(whateverList))
+print("new values of list")
+print(whateverList)
