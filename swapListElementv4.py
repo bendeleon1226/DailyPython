@@ -1,6 +1,8 @@
 def swapList (newList):
     start, *middle, end = newList
     newList = [end, *middle, start]
+#    newList[0] = end
+#    newList[-1] = start
 
     return newList
 
